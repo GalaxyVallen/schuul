@@ -1,0 +1,52 @@
+<html><head><title>Form Layout? | pw</title></head>
+<body>
+<h2>title this fk form</h2>
+<form action="" method="" title="Main Form">
+	<fieldset>
+	<legend>Main Form</legend>
+		<!--input-->
+			<!--<label for="name">Username</label>-->
+			Username <input type="text" name ="name" id="name"></input><br><br>
+			
+			Password <input type="password" name="pw" required></input><br><br>
+			
+			Usia <input type="number" name="age"></input><br><br>
+			
+			Email <input type="Email" name="mail"></input><br><br>
+			
+			Tanggal Lahir <input type="date" name="tglLahir"></input><br><br>
+			
+			Upload File <input type="file" name="doc"></input><br><br>
+			
+			Jenis Kelamin 
+			<input type="radio" name="gender" value="pria">Pria</input>
+			<input type="radio" name="gender" value="wanita">Wanita</input><br><br>
+			
+			<input type="checkbox" name="check" id="check" value="yep"></input>
+			<label for="check">Saya Bisa Ikutin Semua Rules nya!</label>
+			
+			<br><br>
+			<input type="reset" name="delete" value="Delete"></input>
+			<input type="submit" name="submit" value="Submit"></input>
+			<!--<button type="reset" value="delete">Clear</button>
+			<button type="submit">sub</button>-->
+		<hr>
+	<!--select-->
+		<fieldset>
+			<legend>Jurusan Form</legend>
+				<p>Jurusan :</p>
+				<select>
+					<option value="rpl">Rekayasa Perangkat Lunak</option>
+					<option value="tkr">Teknik Kendaraan Ringan</option>
+					<option value="auv">Teknik Audio Video</option>
+					<option value="titl">Teknik Instalasi Tenaga Listrik</option>
+				</select>
+		</fieldset>
+	<br>
+	<!--textarea-->
+		<textarea name="desc" rows="5" cols="30" title="TextArea">Masukkan pesan disini..</textarea>
+	</fieldset>
+</form>
+
+</body>
+</html>
